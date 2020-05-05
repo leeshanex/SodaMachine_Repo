@@ -9,5 +9,11 @@ namespace SodaMachine_Proj
     abstract class Coins
     {
         public double amount;
+        public List<double> coins;
+        public Coins()
+        {
+            coins = new List<double>() { };
+        }
+        
     }
 }

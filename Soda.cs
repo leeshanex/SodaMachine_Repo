@@ -10,5 +10,7 @@ namespace SodaMachine_Proj
     {
         public string flavor;
         public double cost;
+        public List<string> soda;
+
     }
 }
