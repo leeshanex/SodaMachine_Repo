@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SodaMachine_Proj
 {
-    class Soda
+    abstract class Soda
     {
+        public string flavor;
+        public double cost;
     }
 }
